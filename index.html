@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>All about me</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Sans-serif;
+}
+
+/* Style the header */
+header {
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAMckFeL6mhqrUgI9sfZeOow-8eBg3uc5Bg&usqp=CAU');
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border: rounded edges;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  background-image:
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:white;
+  border: dotted black;
+  
+ 
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>All about Me🤭 </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://us.shein.com/">Shein</a></li>
+      <li><a href="#">https://www.youtube.com/</a>Youtube</li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Favorite hobbies</h1>
+    <p>I'm Miley and my favorite things to do are scroll on instagram, go online shopping, and getting my hair done 🤗</p>
+    <p>I like to watch hair videos and eating food</p>
+  </article>
+</section>
+
+<footer>
+  <p>Miley Martinez, @mmartinez1@mlvrcs.org</p>
+</footer>
+
+</body>
+</html>
+
